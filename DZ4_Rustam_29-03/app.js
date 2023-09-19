@@ -14,8 +14,8 @@ const json = ()=> {
             person.setAttribute("class","person-card")
             person.innerHTML = `
                 <img src="https://static.vecteezy.com/system/resources/thumbnails/005/545/335/small/user-sign-icon-person-symbol-human-avatar-isolated-on-white-backogrund-vector.jpg" alt="img">
-                <h3>${persons.name}</h3>
-                <span>${persons.age}</span>
+                <h4>NAME:${persons.name}</h4>
+                <span>AGE:${persons.age}</span>
             `
             cards.append(person)
         })
